@@ -60,3 +60,21 @@ a{
   color: white;
 }
 
+.home-info h1{
+  font-size: 50px;
+  margin-bottom:  5px;
+  margin-top: -5px;
+}
+
+.home-info h2{
+  font-size: 30px;
+}
+
+.home-info p{
+  font-size: 15px;
+  margin: 10px 0 25px;
+}
+
+.social_media{
+  margin-bottom: 10px;
+}
