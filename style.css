@@ -81,21 +81,34 @@ a{
   color: aqua;
 }
 
-.media_access_buttons .dwnl_cv_button{
+
+.dwnl_cv_button{
   display: inline-block;
   padding: 10px 30px;
   background: aqua;
-  border: 2px solid aqua;
+  cursor: pointer;
   font-size: 16px;
   color: #232832;
   font-weight: 600;
+  border-radius: 32px;
+  width: 110px;
+  border: none;
+
 }
 
-.media_access_buttons .portfolio_button{
-  
+.portfolio_button{
+  display: inline-block;
+  padding: 10px 30px;
+  background: aqua;
+  cursor: pointer;
+  font-size: 16px;
+  color: #232832;
+  font-weight: 600;
+  border-radius: 32px;
+  width: 64px;
+  border: none;
+  margin-left: 30px;
 }
-
-
 
 
 
