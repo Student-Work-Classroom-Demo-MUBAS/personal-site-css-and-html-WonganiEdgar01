@@ -71,10 +71,32 @@ a{
 }
 
 .home-info p{
-  font-size: 15px;
+  font-size: 16px;
   margin: 10px 0 25px;
 }
 
-.social_media{
+.social_media_buttons{
+  display: flex;
   margin-bottom: 10px;
+  color: aqua;
 }
+
+.media_access_buttons .dwnl_cv_button{
+  display: inline-block;
+  padding: 10px 30px;
+  background: aqua;
+  border: 2px solid aqua;
+  font-size: 16px;
+  color: #232832;
+  font-weight: 600;
+}
+
+.media_access_buttons .portfolio_button{
+  
+}
+
+
+
+
+
+
