@@ -131,3 +131,12 @@ a{
   background: aqua;
   color: #232832;
 }
+
+.profile_img .img_box{
+  width: 25vw;
+  height: 25vw;
+  background: aquamarine;
+  border-radius: 50%;
+
+}
+
