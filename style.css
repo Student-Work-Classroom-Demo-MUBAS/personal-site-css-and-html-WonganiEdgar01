@@ -124,4 +124,10 @@ a{
   margin-left: 8px;
   font-size: 20px;
   color: aqua;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-info .social_media_buttons a:hover{
+  background: aqua;
+  color: #232832;
 }
