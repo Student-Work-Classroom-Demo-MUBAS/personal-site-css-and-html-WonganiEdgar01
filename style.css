@@ -78,6 +78,10 @@ a{
   font-size: 30px;
 }
 
+.home-info .computer span{
+  color: aqua;
+}
+
 .home-info p{
   font-size: 16px;
   margin: 10px 0 25px;
@@ -184,6 +188,22 @@ a{
   object-fit: fill;
   top: 20px;
   mix-blend-mode: lighten;
+}
+
+/* about section styling */
+.about-section{
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin: top;
+}
+
+.section-title{
+
+}
+
+.section-title span {
+  color: aqua;
 }
 
 
