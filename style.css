@@ -6,6 +6,11 @@ body{
   box-sizing: border-box;
   font-family:'Poppins', sans-serif; 
   background: hsl(219, 18%, 15%);
+  /* background-image: url(images/backbround.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative; */
 }
 
 a{
@@ -42,17 +47,18 @@ a{
 }
 
 .navbar ul li a{
-  color:aqua;
+  color:white;
   font-size: 20px;
   font-weight: 500;
   transition: 1s;
 }
 
 .navbar ul li:hover a{
-  color: rgb(234, 141, 3);
+  color: aqua;
 }
 
 .home{
+  position: relative;
   display: flex;
   align-items: center;
   height: 100vh;
@@ -61,12 +67,14 @@ a{
 }
 
 .home-info h1{
+  position: relative;
   font-size: 50px;
   margin-bottom:  5px;
   margin-top: -5px;
 }
 
 .home-info h2{
+  position: relative;
   font-size: 30px;
 }
 
@@ -76,6 +84,7 @@ a{
 }
 
 .dwnl_cv_button{
+  position: relative;
   display: inline-block;
   padding: 10px 30px;
   background: aqua;
@@ -90,6 +99,7 @@ a{
 }
 
 .portfolio_button{
+  position: relative;
   display: inline-block;
   padding: 10px 30px;
   background: aqua;
@@ -163,7 +173,7 @@ a{
   justify-content: center;
   overflow: hidden;
   z-index: 1;
-  border: 1px solid hsl(219, 18%, 15%);
+  border: 3px solid hsl(219, 18%, 15%);
 }
 
 .profile_img .img_box .img_item img{
