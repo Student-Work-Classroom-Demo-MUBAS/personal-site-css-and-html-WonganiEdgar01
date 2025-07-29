@@ -48,7 +48,7 @@ a{
 
 .navbar ul li a{
   color:white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   transition: 1s;
 }
@@ -191,20 +191,71 @@ a{
 }
 
 /* about section styling */
+
 .about-section{
+  padding: 60px 9%;
+}
+.about-section .section-title{
   text-align: center;
   color: white;
-  font-size: 28px;
+  font-size: 30px;
   margin: top;
-}
-
-.section-title{
-
 }
 
 .section-title span {
   color: aqua;
 }
 
+.about_container{
+  margin-left: 30px;
+  gap: 40px;
+} 
+
+.profile_card{
+  background-color: aqua;
+  border-radius: 10px;
+  height: 280px;
+  width: 250px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
 
 
+
+/* 
+.details-card .tabs{
+  display: flex;
+  color:white;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
+  gap: 15px;
+  margin-left: auto;
+  transition: 1s;
+}
+
+.tabs:hover {
+  color: aqua;
+}
+
+.tabs span{
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+
+.overall{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px;
+  color:white;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  height: 60vh;
+} */
