@@ -284,10 +284,6 @@ a{
   gap: 20px;
   position: relative;
   z-index: 1;
-  /* background: hsl(219, 18%, 15%);
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  margin: 20px auto; */
 }
 .section-title{
   flex: 0 0 100%;
@@ -301,7 +297,63 @@ a{
 }
 
 /* about content*/
-.about .about-content {
+.about .about-content 
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+  
+}
+.about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
 }
+.about .about-content .about-text p
+{
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+}
+.about .about-content .personal-info {
+  flex: 0 0 60%;
+  max-width: 50%;
+  /* display: flex; */
+  gap: 10px;
+  margin-top: 20px;
+}
+.about .about-content .personal-info .info-item
+{
+  text-align: left;
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+.about .about-content .personal-info .info-item p {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0;
+  line-height: 25px;
+  color: aqua;
+  border-bottom: 0.5px solid white;
+}
+.about .about-content .personal-info .info-item p span {
+  color: white;
+  font-weight: 400;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .skills {
+  flex: 0 0 40%;
+  max-width: 50%;
+  gap: 10px;
+  text-align: left;
+  background-color: red;
+  margin-top: 20px;
+}
+.about .about-content .personal-info, .skills
+{
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+}
+
+
