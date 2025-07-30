@@ -66,9 +66,9 @@ a{
   color: white;
 }
 
-/* .hidden{
+.hidden{
   display: none !important;
-} */
+}
 
 .home-info h1{
   position: relative;
@@ -247,7 +247,6 @@ a{
   max-width: 50%;
   display: flex;
   gap: 10px;
-
 }
 .about .about-content .personal-info .info-item
 {
