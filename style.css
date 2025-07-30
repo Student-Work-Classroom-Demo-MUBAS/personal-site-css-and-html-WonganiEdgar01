@@ -66,6 +66,10 @@ a{
   color: white;
 }
 
+.hidden{
+  display: none !important;
+}
+
 .home-info h1{
   position: relative;
   font-size: 50px;
@@ -190,9 +194,10 @@ a{
   mix-blend-mode: lighten;
 }
 
+
 /* about section styling */
 
-.about-section{
+/* .about-section{
   padding: 60px 9%;
 }
 .about-section .section-title{
@@ -220,23 +225,7 @@ a{
   padding: 20px;
   flex-direction: column;
   align-items: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
 
 
 
@@ -275,3 +264,44 @@ a{
   padding: 20px;
   height: 60vh;
 } */
+
+.container
+{
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.section .container{
+  padding: 60px 9%;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+  /* background: hsl(219, 18%, 15%);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 20px auto; */
+}
+.section-title{
+  flex: 0 0 100%;
+  font-size: 20px;
+  max-width: 100%;
+  color: white;
+  margin-bottom: 20px;
+}
+.section-title span {
+  color: aqua;
+}
+
+/* about content*/
+.about .about-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
