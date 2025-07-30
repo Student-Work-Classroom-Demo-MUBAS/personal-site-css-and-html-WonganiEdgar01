@@ -329,6 +329,19 @@ a{
   font-weight: 400;
 }
 
+/* Portfolio Styling */
+.Portfolio .portfolio-heading 
+{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.Portfolio .portfolio-heading h2 
+{
+  color: white;
+  font-weight: 500;
+}
+
+
 
 
 
