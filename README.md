@@ -88,3 +88,17 @@ README.md
 ## ✍️ Student Reflection (To be completed by you)
 
 Add your reflection here. Discuss your design choices, what you found difficult, and what you're most proud of (minimum 100 words).
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Creating my personal profile was a bit challenging and rewarding in the sense that during the course of developing it had little knowledge in developing the site. With the case i have to watch youtube tutorials on how i can come up with a clean personal portfolio site. 
+
+It has been a rewarding experience in the sense that i have come to aware of a number things of which some have not manage to implement them.
+
+Since i had little knowledge in this i have not managed to cope up with time in finishing this assignment, as i was focusing on coming up with a clean personal site
+
+personally, I highly appreciate for this assignment as it has exposed me to knew technologies
+
+Im looking foward to learn more and increase my skill in developing clean websites
+
+i have attached some designs to which i was working towards them as well.
+
