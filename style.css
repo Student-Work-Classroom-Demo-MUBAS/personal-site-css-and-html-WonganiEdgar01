@@ -330,6 +330,10 @@ a{
 }
 
 /* Portfolio Styling */
+.Portfolio .container
+{
+  padding-bottom: 40px;
+}
 .Portfolio .portfolio-heading 
 {
   flex: 0 0 100%;
@@ -339,6 +343,38 @@ a{
 {
   color: white;
   font-weight: 500;
+}
+.portfolio .portfolio-item
+{
+  position: relative;
+  width: calc(25% - 30px);
+  margin: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.portfolio .portfolio-item-inner
+{
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  gap: 10px;
+  border: 6px solid hsl(219, 100%, 50%);
+  max-width: 1000px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: fill;
+}
+.portfolio .portfolio-item-inner .portfolio-img
+{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+  display: ;
+  background: hsl(219, 18%, 15%);
+  border-radius: 10px;
 }
 
 
