@@ -411,12 +411,52 @@ a{
   max-width: 100%;
   text-align: center;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
-.contact-info-item
+.contact .contact-info-item
 {
+  flex: 0 0 100%;
   display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 50px;
 }
+
+.contact .contact-info-item .icon .fa
+{
+  color: aqua;
+  font-size: 20px;
+}
+.contact .contact-info-item h4
+{
+  font-size: 18px;
+  color: white;
+  margin: 10px 0;
+}
+.contact .contact-info-item p
+{
+  font-size: 16px;
+  color: white;
+  margin: 5px 0;
+}
+/* .buttons {
+    display: inline-flex;
+  padding: 8px;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  font-size: 20px;
+  color: aqua;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttons :hover{
+  background: aqua;
+  color: #232832;
+} */
+
+
 
 
 
