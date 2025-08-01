@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <nav class = "navbar">
@@ -13,17 +14,16 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Skills</a></li>
+            <li><a href="#">Resume</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <section class="home">
+    <section class="home hidden">
         <div class="home-info">
             <h2>Hie it's me</h2>
             <h1>Wongani Edgar Kamanga</h1>
-            <h2>And I'm a Computer Engineer</h2>
+            <h2 class="computer">And I'm a <span> Computer Engineer</h2>
             <p>I'm professional web developer with strong skill in HTML, CSS, and 
             JavaScript etc. I have working in this field almost 3 years and all projects 
             are completed successfully with 100% client satisfaction. In addition to that 
@@ -38,17 +38,279 @@
 
             <div class="media_access_buttons">      
                 <a href="h" class = "dwnl_cv_button">Download CV</a>
-                <a href="h" class = "portfolio_button">Portfolio</a>
+                <a href="h" class = "portfolio_button">Resume</a>
             </div>
         </div>
         <div class="profile_img">
             <div class="img_box">
                 <div class="img_item">
-                    <img src="images/Wongani2-1.png" alt="...">
+                    <img src="images/Wongani2-1.png" alt="Loading...">
                 </div>
             </div>
         </div>
     </section>
 
+    <!--about section start -->
+    <section class="about section hidden ">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h2>About<span> Me</span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="row">
+                        <div class="about-text padd-15">
+                            <p>
+                                I am Wongani Edgar Kamanga, an aspiring Electronics 
+                        and Computer Engineer currently pursuing my degree
+                        at the Malawi University of Business and Applied Sciences. 
+                        I am passionate about technology and bring a diverse set of skills
+                        across electronics, software, and IT infrastructure. I have hands-on 
+                        experience from internships at Telekom Networks Malawi (TNM), 
+                        where I worked in database administration, operating systems, and 
+                        infrastructure management—gaining expertise in Linux, SQL, virtual machines,
+                        and server room maintenance. <br><br> Additionally, I worked at Prag Microcredit Agency
+                        as a data collector, refining my data handling and reporting skills. 
+                        Beyond electronics, I am proficient in web development, backend development, and 
+                        graphic designing, utilizing tools such as Figma, Adobe Photoshop, and MS Office Suite. 
+                        I'm known for being a collaborative team player with strong problem-solving abilities. 
+                        I thrive in innovation-driven environments and continually seek opportunities to learn, 
+                        grow, and contribute meaningfully.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="personal-info padd-15">
+                            <div class="row">
+                                <div class="info-item padd-15 ">
+                                    <p>Birthday : <span>21 Feb 2002</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Age : <span>21 Feb 23</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Email : <span>wonganiedgar@gmail.com</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Degree : <span>BS ECE Pending</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>Phone : <span> +265 885 040 112</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p>City : <span>Blantyre, Malawi</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills padd-15">
+                            <div class="row">
+                                <div class="skills-item padd-15">
+                                    <h5>CSS</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 30%;"></div>
+                                        <div class="skill-percent">30%</div>
+                                </div>
+                            </div>
+                            <div class="skills-item padd-15">
+                                    <h5>HTML</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 40%;"></div>
+                                        <div class="skill-percent">40%</div>
+                                </div>
+                            </div>
+                            <div class="skills-item padd-15">
+                                    <h5>JavaScript</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 20%;"></div>
+                                        <div class="skill-percent">20%</div>
+                                </div>
+                            </div>
+                            <div class="skills-item padd-15">
+                                    <h5>SQL</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 50%;"></div>
+                                        <div class="skill-percent">50%</div>
+                                </div>
+                            </div>
+                            <div class="skills-item padd-15">
+                                    <h5>Figma</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 30%;"></div>
+                                        <div class="skill-percent">30%</div>
+                                </div>
+                            </div>
+                            <div class="skills-item padd-15">
+                                    <h5>Adobe Photoshop</h5>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 25%;"></div>
+                                        <div class="skill-percent">25%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end-->
+
+    <!-- portfolio section start-->
+    <!-- <section class="Portfolio section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h2> Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-heading padd-15">
+                    <h2>My Last Projects : </h2>
+                </div>
+            </div>
+            <div class="row"> -->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images/WK_logo.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images/my_firstjpg.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images/branding_.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images/Figma UI_UX_Designs.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images/html.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <!-- <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="portfolio-img"></div>
+                        <img src="images\weekend.jpg" alt="Portfolio Item">
+                    </div>
+                </div> -->
+                <!--portfolio item end-->
+            </div>
+        </div>
+    </section>
+    <!--portfolio section end -->
+
+    <!--contact section start -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-title padd-15">
+                <h2>Contact<span> Me</span></h2>
+            </div>
+            <div>
+            <h3 class="contact-title padd-15">Do You Have Any Questions?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+                <!--Contact info item start-->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class="fa fa-phone"></i></div>
+                    <h4>Call Us On</h4>
+                    <p>+265 885 040 112 | </p>
+                </div>
+                <!--Contact info item end-->
+                <!--Contact info item start-->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                    <h4>Office</h4>
+                    <p>Chibisa,House 1 | </p>
+                </div>
+                <!--Contact info item start-->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class="fa fa-envelope"></i></div>
+                    <h4>Email</h4>
+                    <p>wonganiedgar@gmail.com | </p>
+                </div>
+                <!--Contact info item end-->
+                <!--Contact info item start-->
+                <div class="contact-info-item padd-15">
+                    <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                    <h4>Website</h4>
+                    <p>www.wonganiedgar.com</p>
+                </div>
+                <!--Contact info item end-->
+            </div>
+            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+            <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+            </div>
+            <div class="row">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-12 padd-15">
+                            <div class="form-group">
+                                <textarea name="" class = "form-control" id="" placeholder="Message"></textarea>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <button type="submit" class="btn"> Send Message</button>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section start -->
 </body>
 </html>
