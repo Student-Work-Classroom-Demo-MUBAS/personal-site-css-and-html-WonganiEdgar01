@@ -66,9 +66,9 @@ a{
   color: white;
 }
 
-.hidden{
+/* .hidden{
   display: none !important;
-}
+} */
 
 .home-info h1{
   position: relative;
@@ -134,7 +134,7 @@ a{
 }
 
 .home-info .social_media_buttons a {
-    display: inline-flex;
+  display: inline-flex;
   padding: 8px;
   border: 2px solid aqua;
   border-radius: 50%;
@@ -329,56 +329,6 @@ a{
   font-weight: 400;
 }
 
-/* Portfolio Styling
-.Portfolio .container
-{
-  padding-bottom: 40px;
-}
-.Portfolio .portfolio-heading 
-{
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-.Portfolio .portfolio-heading h2 
-{
-  color: white;
-  font-weight: 500;
-}
-.portfolio .portfolio-item
-{
-  position: relative;
-  width: calc(25% - 30px);
-  margin: 15px;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-.portfolio .portfolio-item-inner
-{
-  display: grid;
-  grid-template-columns: repeat (3, 1fr);
-  gap: 10px;
-  border: 6px solid hsl(219, 100%, 50%);
-  max-width: 1000px;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
-  object-fit: fill;
-}
-.portfolio .portfolio-item-inner .portfolio-img
-{
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  max-width: 60px;
-  height: auto;
-  display: ;
-  background: hsl(219, 18%, 15%);
-  border-radius: 10px;
-}
-
- */
-
 .contact .container{
   padding: 60px 9%;
   padding-bottom: 0;
@@ -425,11 +375,11 @@ a{
 .contact .contact-info-item .icon .fa
 {
   color: aqua;
-  font-size: 20px;
+  font-size: 25px;
 }
 .contact .contact-info-item h4
 {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   margin: 10px 0;
 }
@@ -439,22 +389,62 @@ a{
   color: white;
   margin: 5px 0;
 }
-/* .buttons {
-    display: inline-flex;
-  padding: 8px;
-  border: 2px solid aqua;
-  border-radius: 50%;
+.container .contact-form
+{
+  flex: 0 0 100%;
+  width: 100%;
+  align-items: center;
+  margin-right: 100px;
+}
+.contact .contact-form .col-6
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+  align-items: center;
+}
+.container .contact-form .col-12
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+  align-items: center;
+}
+.container .contact-form .form-item
+{
   margin-bottom: 20px;
-  margin-left: 8px;
-  font-size: 20px;
-  color: aqua;
-  transition: all 0.5s ease-in-out;
+}
+.container .contact-form .form-item .form-control
+{
+  width: 200%;
+  height: 30px;
+  border-radius: 25px;
+} 
+.container .btn
+{
+  align-items: center;
+  margin-left: 100px;
+  background-color: aqua;
+  color: hsl(219, 18%, 15%);
+  border-color:  aqua;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.15s, color 0.15s;
 }
 
-.buttons :hover{
-  background: aqua;
-  color: #232832;
-} */
+.container .btn:hover {
+  background-color:hsl(219, 18%, 15%);
+  color: aqua;
+}
+
+
+
+
+
 
 
 
