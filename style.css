@@ -329,7 +329,7 @@ a{
   font-weight: 400;
 }
 
-/* Portfolio Styling */
+/* Portfolio Styling
 .Portfolio .container
 {
   padding-bottom: 40px;
@@ -375,6 +375,47 @@ a{
   display: ;
   background: hsl(219, 18%, 15%);
   border-radius: 10px;
+}
+
+ */
+
+.contact .container{
+  padding: 60px 9%;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+.section-title span
+{
+  color: aqua;
+}
+/* contact styling */
+.contact-title{
+  flex: 0 0 100%;
+  font-size: 20px;
+  max-width: 100%;
+  text-align: center;
+  color: aqua;
+  margin-bottom: 20px;
+}
+.contact-sub-title
+{
+  flex: 0 0 100%;
+  font-size: 16px;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.contact-info-item
+{
+  display: inline-block;
 }
 
 
